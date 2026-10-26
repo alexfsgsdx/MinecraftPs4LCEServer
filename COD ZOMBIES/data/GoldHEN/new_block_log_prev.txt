@@ -1,0 +1,68 @@
+crash log: 7 of 7 signals caught (handler 800439650)
+mob rules: spawning in, damage in
+many players: the server's player table takes 256
+many players: the tracker's split-screen check skipped while nobody plays split screen
+many players: the chunk sender only looks when the console may have a chunk
+direct connect: on (last host none, 0 saved servers)
+entity culling: in (on)
+new_block 3.65 - the COD Zombies version: ready, direct connect on
+guns: 30/30 in, ammo in
+item models: 21/33 items drawn 3D
+new_block: the COD Zombies version - 33 items (the guns and their ammo)
+direct: hosting on port 3659
+direct: the server's world is up - consoles may join (up to 16 players)
+phases: hooked (pushing replaced in 83 vtables)
+performance: world 0's view distance 4 chunks
+performance: world 1's view distance 4 chunks
+performance: world 2's view distance 4 chunks
+operators: ops.txt was edited - 0 now
+direct: this world's key made - d052b5ec1ae26da5 (kept with the world when it saves)
+direct: 127.0.0.1 asked how the world is - 0 of 16: 
+direct: 127.0.0.1 asked how the world is - 0 of 16: 
+direct: RandomDeer (member 4, players 1, version 3, pass faedbde43ce31a96) joined from 127.0.0.1
+direct: RandomDeer is pass faedbde43ce31a96's here from now on
+joining: 'RandomDeer' (host's own: 0) uid 'RandomDeer' fe9 024d43535256 u10000001 / 'RandomDeer' f49 024d43535256 u10000001, privileges 0x1800
+gun: shot 1 from 308.6 5.6 -686.8 dir 0.40 -0.09 -0.91 (yaw -515.9 pitch 4.7): block hit at 13.4, 2 living near the ray, one hit at 5.4
+gun:   near: type 5d550040 box 310.5 4.0 -692.4 - 311.1 6.0 -691.8, the ray would meet it at 5.4
+gun:   near: type 5d550040 box 310.3 4.0 -693.3 - 310.9 6.0 -692.7, the ray misses it -1.0
+gun: hurt type 5d550040 for 8.0 -> taken, health 15.0 -> 7.1
+gun: shot 1 from 308.2 5.6 -688.7 dir 0.41 0.02 -0.91 (yaw -515.6 pitch -0.9): block hit at 11.6, 2 living near the ray, one hit at 2.9
+gun:   near: type 5d550040 box 311.9 4.0 -692.4 - 312.5 6.0 -691.8, the ray misses it -1.0
+gun:   near: type 5d550040 box 309.5 4.0 -692.0 - 310.1 6.0 -691.4, the ray would meet it at 2.9
+gun: hurt type 5d550040 for 16.8 (head) -> taken, health 15.0 -> 0.0
+gun: shot 1 from 308.3 5.6 -688.1 dir 0.75 0.05 -0.66 (yaw -491.6 pitch -2.8): block hit at 10.3, 2 living near the ray, one hit at 3.9
+gun:   near: type 5d550040 box 311.0 4.0 -691.4 - 311.6 6.0 -690.8, the ray would meet it at 3.9
+gun:   near: type 5d550040 (not a target) box 309.5 4.0 -692.0 - 310.1 6.0 -691.4, the ray misses it -1.0
+gun: hurt type 5d550040 for 16.8 (head) -> taken, health 7.1 -> 0.0
+gun: shot 1 from 306.8 5.6 -688.6 dir -0.25 0.03 -0.97 (yaw -554.3 pitch -2.0): block hit at 11.3, 4 living near the ray, one hit at 10.4
+gun:   near: type 5d550040 box 303.1 4.0 -690.8 - 303.7 6.0 -690.2, the ray misses it -1.0
+gun:   near: type 5d550040 box 304.2 4.0 -700.5 - 304.8 6.0 -699.9, the ray misses it -1.0
+gun:   near: type 5d550040 box 304.2 4.0 -699.4 - 304.8 6.0 -698.8, the ray would meet it at 10.4
+gun: hurt type 5d550040 for 16.8 (head) -> taken, health 15.0 -> 0.0
+gun: shot 1 from 307.9 5.6 -687.9 dir -0.83 0.00 -0.55 (yaw -596.6 pitch -0.2): block hit at 8.3, 2 living near the ray, one hit at 1.8
+gun:   near: type 5d550040 box 305.7 4.0 -689.3 - 306.3 6.0 -688.7, the ray would meet it at 1.8
+gun:   near: type 5d550040 box 303.9 4.0 -690.4 - 304.5 6.0 -689.8, the ray would meet it at 4.0
+gun: hurt type 5d550040 for 16.8 (head) -> taken, health 15.0 -> 0.0
+gun: shot 1 from 308.1 5.6 -687.5 dir -0.83 0.02 -0.55 (yaw -596.7 pitch -1.1): block hit at 8.5, 2 living near the ray, one hit at 3.2
+gun:   near: type 5d550040 (not a target) box 305.7 4.0 -689.3 - 306.3 6.0 -688.7, the ray would meet it at 2.0
+gun:   near: type 5d550040 box 304.7 4.0 -689.9 - 305.3 6.0 -689.3, the ray would meet it at 3.2
+gun: hurt type 5d550040 for 16.8 (head) -> taken, health 15.0 -> 0.0
+gun: shot 27 from 312.0 5.6 -689.4 dir 0.07 0.01 -1.00 (yaw -176.7 pitch 1.1): block hit at 13.6, 1 living near the ray, one hit at 6.0
+gun:   near: type 5d550040 box 312.0 4.0 -696.1 - 312.6 6.0 -695.5, the ray would meet it at 6.0
+gun: hurt type 5d550040 for 8.4 (head) -> taken, health 25.0 -> 16.7
+gun: shot 27 from 312.1 5.6 -689.5 dir 0.09 0.01 -1.00 (yaw -176.9 pitch 0.5): block hit at 10.1, 1 living near the ray, one hit at 6.2
+gun:   near: type 5d550040 box 312.0 4.4 -696.4 - 312.6 6.3 -695.8, the ray would meet it at 6.2
+gun: hurt type 5d550040 for 4.0 -> taken, health 16.7 -> 12.8
+gun: shot 27 from 312.3 5.6 -689.7 dir 0.05 -0.00 -1.00 (yaw -176.9 pitch 0.0): block hit at 13.3, 1 living near the ray, one hit at 6.5
+gun:   near: type 5d550040 box 312.0 4.5 -696.9 - 312.6 6.5 -696.3, the ray would meet it at 6.5
+gun: hurt type 5d550040 for 4.0 -> taken, health 12.8 -> 8.9
+gun: shot 27 from 311.7 5.6 -688.5 dir 0.05 -0.00 -1.00 (yaw -176.5 pitch 0.1): block hit at 14.5, 1 living near the ray, one hit at 8.9
+gun:   near: type 5d550040 box 312.2 4.0 -698.1 - 312.8 6.0 -697.5, the ray would meet it at 8.9
+gun: hurt type 5d550040 for 8.4 (head) -> taken, health 8.9 -> 0.6
+gun: shot 27 from 311.8 5.6 -688.7 dir 0.08 0.01 -1.00 (yaw -176.3 pitch -0.4): block hit at 14.4, 1 living near the ray, one hit at 9.2
+gun:   near: type 5d550040 box 312.2 4.7 -698.6 - 312.8 6.6 -698.0, the ray would meet it at 9.2
+gun: hurt type 5d550040 for 4.0 -> taken, health 0.6 -> 0.0
+gun: shot 27 from 310.6 5.6 -687.9 dir -0.54 0.02 -0.84 (yaw -210.8 pitch -0.2): block hit at 13.2, 1 living near the ray, one hit at 9.4
+gun:   near: type 5d550040 box 305.4 4.0 -696.6 - 306.0 6.0 -696.0, the ray would meet it at 9.4
+gun: hurt type 5d550040 for 8.4 (head) -> taken, health 25.0 -> 16.7
+direct: link 1 (member 4) closed

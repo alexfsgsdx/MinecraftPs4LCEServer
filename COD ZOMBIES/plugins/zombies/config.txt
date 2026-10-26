@@ -1,0 +1,20 @@
+# zombies's settings. Change them here (the server reads this file when the plugin starts),
+# in Host Options > Plugins, or with /plugin set zombies <setting> <value> - those save it at once.
+
+# All in the same map - each party sees only its own players and zombies
+# Allowed: 1 to 24, in steps of 1
+# Default: 8
+max-games = 8
+
+# Allowed: 1 to 8, in steps of 1
+# Default: 4
+party-size = 4
+
+# Allowed: 0 to 100000, in steps of 100
+# Default: 500
+start-points = 500
+
+# 6 more for each player past the first
+# Allowed: 4 to 60, in steps of 2
+# Default: 24
+max-zombies = 24

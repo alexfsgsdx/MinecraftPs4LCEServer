@@ -1,0 +1,159 @@
+[03:45:25] [main/INFO]: ps4srv starting: game /mnt/c/Users/wwasd/Documents/CUSA00744-app0 + patch /mnt/c/Users/wwasd/Documents/CUSA00744-patch0, data /mnt/c/Users/wwasd/Desktop/COD ZOMBIES
+[03:45:25] [main/INFO]: config: "COD Zombies", world "world" ("COD Zombies", Medium, Normal), survival, normal, up to 16 players, port 3660
+[03:45:25] [main/INFO]: ops: 0 operators (/mnt/c/Users/wwasd/Desktop/COD ZOMBIES/ops.txt)
+[03:45:25] [main/INFO]: loaded Minecraft.Client.elf at 0x400000 (21072 KB), 695 symbols (0 exports), 159948 + 662 relocations, has TLS
+[03:45:25] [main/INFO]: loaded libc.prx at 0x800000000 (1168 KB), 2676 symbols (2561 exports), 1814 + 107 relocations, has TLS
+[03:45:25] [main/INFO]: loaded libSceFios2.prx at 0x800200000 (1600 KB), 253 symbols (168 exports), 242 + 78 relocations, has TLS
+[03:45:25] [main/INFO]: loaded new_block.prx at 0x800400000 (11344 KB), 332 symbols (237 exports), 15394 + 91 relocations
+[03:45:25] [main/INFO]: linked Minecraft.Client.elf: 364 imports missing (they trap or are blank)
+[03:45:25] [main/INFO]: linked libc.prx: 0 imports missing (they trap or are blank)
+[03:45:25] [main/INFO]: link: libSceFios2.prx imports data libSceLibcInternal:? (ZT4ODD2Ts9o) - nothing has it, given a blank block
+[03:45:25] [main/INFO]: linked libSceFios2.prx: 1 imports missing (they trap or are blank)
+[03:45:25] [main/INFO]: link: new_block.prx imports libSceAudioOut:? (QOQtbeDqsT4) - nothing has it, it stops the server if called
+[03:45:25] [main/INFO]: link: new_block.prx imports libSceAudioOut:? (ekNvsT22rsY) - nothing has it, it stops the server if called
+[03:45:25] [main/INFO]: linked new_block.prx: 2 imports missing (they trap or are blank)
+[03:45:25] [main/INFO]: TLS: the game's block is 528 bytes at tp-4224; 180 thread-pointer reads in its code, 180 use the slots
+[03:45:25] [main/INFO]: new_block.prx: 1 GoldHEN system call answered here
+[03:45:25] [main/INFO]: libc.prx: running its start-up code
+[03:45:25] [main/INFO]: memory: direct memory 0x400000 bytes (handle 0)
+[03:45:25] [main/INFO]: memory: mapped 0x400000 bytes at 0x1000000000
+[03:45:25] [main/INFO]: memory: direct memory 0xe7200000 bytes (handle 0x400000)
+[03:45:25] [main/INFO]: memory: mapped 0xe7200000 bytes at 0x1000400000
+[03:45:25] [main/INFO]: libc.prx: start-up done (0)
+[03:45:25] [main/INFO]: libSceFios2.prx: running its start-up code
+[03:45:25] [main/INFO]: libSceFios2.prx: start-up done (0)
+[03:45:25] [main/INFO]: game: libc's _init_env
+[03:45:25] [main/INFO]: game: running its static constructors
+[03:45:25] [main/INFO]: FIOS2: built with SDK version 0x07008051
+[03:45:25] [main/INFO]: stub: libSceAudioOut:JfEPXVxhFqA called (from game 0xeea360) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceAudioOut:ekNvsT22rsY called (from game 0xeea382) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceCommonDialog:uoUpLGNkygk called (from game 0xeea390) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: game: static constructors done
+[03:45:25] [main/INFO]: new_block.prx: running its start-up code
+[03:45:25] [main/INFO]: new_block.prx: start-up done (0)
+[03:45:25] [main/INFO]: new_block.prx: plugin_load
+[03:45:25] [main/INFO]: [new_block] process Minecraft.Client.elf (/app0/Minecraft.Client.elf) base 0x0
+[03:45:25] [main/INFO]: [new_block] in the Linux server: up to 16 players
+[03:45:25] [main/INFO]: signals: a handler for signal 4 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: signals: a handler for signal 5 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: signals: a handler for signal 6 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: signals: a handler for signal 8 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: signals: a handler for signal 10 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: signals: a handler for signal 11 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: signals: a handler for signal 12 asked for - the server's crash report stays
+[03:45:25] [main/INFO]: [new_block] atlas 0 item models fitted to 128 rows
+[03:45:25] [main/INFO]: [new_block] atlas 1 item models fitted to 41 rows
+[03:45:25] [main/INFO]: [new_block] leaf sprite and culling choices replaced in 3 / 3 vtables
+[03:45:25] [main/INFO]: [new_block] graphics: fov 70, max 60 fps, particles 0, clouds 2, fancy leaves 1, smooth lighting 1
+[03:45:25] [main/INFO]: notification: new_block 3.65 - the COD Zombies version: ready, direct connect on
+[03:45:25] [main/INFO]: [new_block] new_block 3.65 - the COD Zombies version: ready, direct connect on
+[03:45:25] [main/INFO]: new_block.prx: plugin_load done (0)
+[03:45:25] [main/INFO]: game: app ready (strings loaded)
+[03:45:25] [main/INFO]: game: building its registries (blocks, items, biomes, entities...)
+[03:45:25] [main/INFO]: [new_block] no item "bandage"
+[03:45:25] [main/INFO]: [new_block] no item "medkit"
+[03:45:25] [main/INFO]: [new_block] no item "grenade"
+[03:45:25] [main/INFO]: [new_block] no item "rpg"
+[03:45:25] [main/INFO]: [new_block] no item "airdrop"
+[03:45:25] [main/INFO]: [new_block] no item "bike"
+[03:45:25] [main/INFO]: [new_block] no item "copter"
+[03:45:25] [main/INFO]: [new_block] no item "vending_machine"
+[03:45:25] [main/INFO]: [new_block] no item "ammo_box"
+[03:45:25] [main/INFO]: [new_block] no item "teleporter_pad"
+[03:45:25] [main/INFO]: [new_block] no item "bear_trap"
+[03:45:25] [main/INFO]: [new_block] no item "c4"
+[03:45:25] [main/INFO]: game: registries done
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:H8cQuFAzgU4 called (from game 0x11fd051) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:tlpXm5KLgqk called (from game 0x11fd071) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:H8cQuFAzgU4 called (from game 0x11fd0c1) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:tlpXm5KLgqk called (from game 0x11fd0db) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpManager:GFhVUpRmbHE called (from game 0x11fd2cd) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceSsl:hdpVEUDFW3s called (from game 0x11d2e0c) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceHttp:A9cVMUtEp4Y called (from game 0x11d2e23) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpManager:Ec63y59l9tw called (from game 0x11fd471) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceVoice:9TrhuGzberQ called (from game 0x11fab63) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceVoice:nXpje5yNpaE called (from game 0x11fab8e) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceVoice:54phPH2LZls called (from game 0x11fabc8) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:lgACxYBCgFw called (from game 0x11f929f) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:b9IYAN2rhlo called (from game 0x11f92c6) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:Kv8XXD7X7XQ called (from game 0x11f92de) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceNpToolkit2:WepVJVZ8cpA called (from game 0x11f9302) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: server: network manager made (platform 0x1005538b80)
+[03:45:25] [main/INFO]: server: hosting an online game (Direct Connect)
+[03:45:25] [main/INFO]: save: loaded worlds/world (4896 bytes, 16 regions)
+[03:45:25] [main/INFO]: server: starting with worlds/world
+[03:45:25] [(4J) Server/INFO]: memory: direct memory 0x200000 bytes (handle 0xe7600000)
+[03:45:25] [(4J) Server/INFO]: memory: mapped 0x200000 bytes at 0x1100000000
+[03:45:25] [(4J) Server/INFO]: memory: direct memory 0x200000 bytes (handle 0xe7800000)
+[03:45:25] [(4J) Server/INFO]: memory: mapped 0x200000 bytes at 0x1180000000
+[03:45:25] [(4J) Server/INFO]: sync: an event flag deleted while waited on (from game 0x12094ad)
+[03:45:25] [main/INFO]: server: started - the world's seed is -6314943514847394812, its spawn (-51, 4, -176)
+[03:45:25] [main/INFO]: server: game options 0xbfb00842 - difficulty 2, pvp off, trust players on, fire spreads off, tnt off, host privileges off, keep inventory on, mob spawning off, mob griefing off, daylight cycle off, weather cycle off
+[03:45:25] [main/INFO]: server: running (Ctrl+C or "stop" saves the world and stops it; "help" lists the console's commands)
+[03:45:25] [main/INFO]: stub: libSceVoice:nXpje5yNpaE called (from game 0x11fc324) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: stub: libSceVoice:oV9GAdJ23Gw called (from game 0x11fc387) - not needed by a server, returning 0
+[03:45:25] [main/INFO]: server: the game's open for players
+[03:45:25] [(4J) Server/INFO]: [javaskins] running (version 1.0)
+[03:45:25] [(4J) Server/INFO]: [zombies] the map: making it at 300, 3, -700 (17143 blocks)
+[03:45:25] [(4J) Server/INFO]: [zombies] running (version 2.0)
+[03:45:25] [(4J) Server/INFO]: [plugins] 2 plugins, 2 running (/server/plugins)
+[03:45:25] [(4J) Server/INFO]: performance.yml: block updates - every block updates
+[03:45:25] [(4J) Server/INFO]: performance.yml: view 4, simulation 4, max-unacked 3, spawns every 1 tick, monsters/animals a player 0/0, tracking 0/0/0/0, despawn 6000/1200
+[03:45:28] [(4J) Server/INFO]: [zombies] 8 wall gun frames put up
+[03:45:29] [main/INFO]: stub: libSceVoice:oV9GAdJ23Gw called (from game 0x11fc387) - not needed by a server, returning 0
+[03:45:35] [console/INFO]: console: op wwasd
+[03:45:35] [(4J) Server/INFO]: wwasd is now an operator
+[03:46:27] [main/INFO]: server: 1230 ticks
+[03:47:29] [main/INFO]: server: 2465 ticks
+[03:48:31] [main/INFO]: server: 3704 ticks
+[03:49:32] [main/INFO]: server: 4941 ticks
+[03:50:34] [main/INFO]: server: 6181 ticks
+[03:50:34] [main/INFO]: server: autosave
+[03:50:42] [(4J) Server/INFO]: [zombies] game 1: wwasd (phase 1) - 1 game in the map
+[03:50:47] [(4J) Server/INFO]: [zombies] game 1: round 1 - 6 zombies, 15 health
+[03:51:23] [(4J) Server/INFO]: [zombies] game 1: round 2 - 8 zombies, 25 health
+[03:51:36] [main/INFO]: server: 7411 ticks
+[03:52:07] [(4J) Server/INFO]: [zombies] game 1: wwasd bought the door (750, 1500 left)
+[03:52:11] [(4J) Server/INFO]: [zombies] game 1: wwasd bought the door (1000, 500 left)
+[03:52:16] [(4J) Server/INFO]: [zombies] game 1: round 3 - 13 zombies, 35 health
+[03:52:19] [main/INFO]: stub: libSceVoice:b7kJI+nx2hg called (from game 0x11fafc9) - not needed by a server, returning 0
+[03:52:19] [(4J) Server/INFO]: sync: an event flag deleted while waited on (from game 0x12094ad)
+[03:52:19] [(4J) Server/INFO]: sync: an event flag deleted while waited on (from game 0x12094ad) - not logged again
+[03:52:19] [(4J) Server/INFO]: [zombies] game 1 over (empty) at round 3
+[03:52:38] [main/INFO]: server: 8643 ticks
+[03:52:52] [main/INFO]: stub: libSceVoice:b7kJI+nx2hg called (from game 0x11fafc9) - not needed by a server, returning 0
+[03:53:39] [main/INFO]: server: 9871 ticks
+[03:54:40] [main/INFO]: server: 11101 ticks
+[03:55:14] [(4J) Server/INFO]: [zombies] game 2: wwasd (phase 2) - 1 game in the map
+[03:55:19] [(4J) Server/INFO]: [zombies] game 2: round 1 - 6 zombies, 15 health
+[03:55:42] [main/INFO]: server: 12334 ticks
+[03:55:42] [main/INFO]: server: autosave
+[03:55:54] [(4J) Server/INFO]: [zombies] game 2: round 2 - 8 zombies, 25 health
+[03:55:55] [(4J) Server/INFO]: [zombies] game 2: wwasd bought the door (750, 490 left)
+[03:56:41] [(4J) Server/INFO]: [zombies] game 2: round 3 - 13 zombies, 35 health
+[03:56:42] [(4J) Server/INFO]: [zombies] game 2: wwasd bought the door (1000, 580 left)
+[03:56:43] [main/INFO]: server: 13562 ticks
+[03:56:46] [(4J) Server/INFO]: [zombies] game 2: the power's on (wwasd)
+[03:57:45] [main/INFO]: server: 14792 ticks
+[03:57:46] [(4J) Server/INFO]: [zombies] game 2: wwasd bought BAR (1800, 900 left)
+[03:57:52] [(4J) Server/INFO]: [zombies] game 2: round 4 - 18 zombies, 45 health
+[03:57:54] [(4J) Server/INFO]: [zombies] game 2: wwasd bought the door (750, 150 left)
+[03:58:46] [main/INFO]: server: 16021 ticks
+[03:59:07] [(4J) Server/INFO]: [zombies] game 2: wwasd bought the box (950, 1200 left)
+[03:59:11] [(4J) Server/INFO]: [zombies] game 2: the box gave wwasd a AK-74u
+[03:59:14] [(4J) Server/INFO]: [zombies] game 2: wwasd bought the door (1000, 200 left)
+[03:59:30] [(4J) Server/INFO]: [zombies] game 2: round 5 - 24 zombies, 55 health
+[03:59:40] [(4J) Server/INFO]: [zombies] game 2: wwasd is down (round 5)
+[03:59:41] [(4J) Server/INFO]: [zombies] game 2 over (down) at round 5
+[03:59:48] [main/INFO]: server: 17250 ticks
+[03:59:57] [(4J) Server/INFO]: http: libcurl/7.81.0 OpenSSL/3.0.2 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.20 - plugins can make web requests
+[04:00:50] [main/INFO]: server: 18485 ticks
+[04:00:50] [main/INFO]: server: autosave
+[04:01:51] [main/INFO]: server: 19713 ticks
+[04:02:53] [main/INFO]: server: 20944 ticks
+[04:03:55] [main/INFO]: server: 22186 ticks
+[04:04:26] [main/INFO]: server: stopping - saving the world (a second Ctrl+C stops at once, without saving)
+[04:04:26] [(4J) Server/INFO]: [plugins] stopped (their data saved)
+[04:04:26] [main/INFO]: server: saved - stopped
+[04:04:26] [main/INFO]: sync: the game destroyed 0 held mutex(es) and 0 waited-on condition(s), used 0 deleted event flag(s) (5 waits cancelled) and 0 deleted event queue(s) - all answered as a PS4 would
+[04:04:26] [main/INFO]: server: this log is /mnt/c/Users/wwasd/Desktop/COD ZOMBIES/logs/latest.log

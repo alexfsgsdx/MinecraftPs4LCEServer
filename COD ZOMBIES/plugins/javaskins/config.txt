@@ -1,0 +1,7 @@
+# javaskins's settings. Change them here (the server reads this file when the plugin starts),
+# in Host Options > Plugins, or with /plugin set javaskins <setting> <value> - those save it at once.
+
+# A Java player's cape comes with their skin
+# Allowed: true, false
+# Default: true
+capes = true

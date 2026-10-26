@@ -1,0 +1,73 @@
+# performance.yml (COD ZOMBIES: view and simulation 4 - its maps are small and indoors; 4 shows zombies across a whole map) - the server's performance settings (as paper.yml is a Java server's). Read when the server
+# starts; "performance reload" in the console (or /performance reload, operators) reads it again - each change
+# takes effect at once. Lines starting with # are notes; a section's settings go under it, two spaces in.
+
+chunks:
+  # How far round each player the world is kept loaded and sent to their console, in chunks (16 blocks each).
+  # The biggest single setting for many players: 16 is 33 x 33 = 1089 chunks a player, 12 is 625, 10 is 441, 8 is
+  # 289. Consoles can only draw what they're sent. Entities are sent no farther than (view-distance - 1) x 16 blocks.
+  # Allowed: 3 to 30 - Default: 16 (the PS4 game's own)
+  view-distance: 4
+  # How far round each player the world is alive, in chunks: crops grow, leaves decay, fire spreads, ice melts,
+  # lightning strikes. Every player counts (the game itself only ever ticked round the first 16 players on).
+  # Allowed: 1 to 30 - Default: 9 (the game's)
+  simulation-distance: 4
+  # How many of the server's messages a console may have not yet acknowledged before it's sent another chunk:
+  # higher fills a player's view in faster (more of their bandwidth), lower sends more slowly.
+  # Allowed: 1 to 50 - Default: 3 (the game's)
+  max-unacked: 3
+
+spawning:
+  # Natural mob spawning runs once every this many ticks in each world (20 ticks are 1 second). 1 is every tick,
+  # as the game does; higher refills the worlds' mobs more slowly after they die or despawn, for less work.
+  # Allowed: 1 to 400 - Default: 1
+  ticks-between-spawns: 1
+  # The game caps naturally spawned mobs for the whole world (50 monsters, 50 animals), however many are on - with
+  # many players spread out, few each. These make the caps grow with the players online: the cap is this many a
+  # player (never under the game's own). 0: the game's caps.
+  # Allowed: 0 to 100 - Default: 0
+  monsters-per-player: 0
+  animals-per-player: 0
+  # The most the caps above may grow to, for the whole world (0: no top).
+  # Allowed: 0 to 100000 - Default: 0
+  max-monsters: 0
+  max-animals: 0
+
+entity-tracking-range:
+  # How far away (blocks) each kind of entity is sent to a player's console - beyond it, it isn't on their screen
+  # (and costs the server nothing for them). Never more than the view distance allows. 0: the game's own -
+  # players 512, mobs 80, misc (items, arrows, snowballs, xp) 64, other (falling blocks, TNT, armor stands,
+  # item frames, paintings, dragons) 160 or 256. Spigot's defaults are 48, 48, 32, 64.
+  # Allowed: 0 to 512 - Default: 0
+  players: 0
+  mobs: 0
+  misc: 0
+  other: 0
+
+items:
+  # Ticks a dropped item lies before it's gone (6000 = 5 minutes).
+  # Allowed: 20 to 72000 - Default: 6000
+  item-despawn-ticks: 6000
+  # Ticks an arrow (or another thrown thing) stuck in a block stays (1200 = 1 minute).
+  # Allowed: 20 to 72000 - Default: 1200
+  arrow-despawn-ticks: 1200
+
+block-updates:
+  # Blocks that never update: they don't flow (water, lava), fall (sand, gravel, anvils), pop off when what holds
+  # them is gone (flowers, plants, ladders), spread or die (grass), grow (crops, saplings, cactus, sugar cane),
+  # decay (leaves), melt (ice, snow) or burn on (fire). Players still place and break them as usual - the blocks
+  # round a change just don't react to it. Lists, as [a, b, c]: block names (water, ladder, sand, red_flower...)
+  # or groups -
+  #   water, lava, liquids (both), falling (sand, gravel, anvils, concrete powder, dragon egg, snow layers,
+  #   scaffolding), anvils, plants (flowers, grass and ferns, saplings, crops, mushrooms, cactus, sugar cane,
+  #   vines, kelp, sea grass, lily pads, berry bushes, bamboo, chorus, cocoa...), flowers, grass (grass blocks,
+  #   mycelium, nylium, paths), ladders, leaves, snow, ice, fire, farmland, coral, doors, trapdoors, signs,
+  #   torches, rails, redstone (dust, torches, repeaters, comparators, pistons, observers, buttons, levers,
+  #   pressure plates, lamps, tripwire, hoppers, dispensers, note blocks, TNT...), all (every block).
+  # Bone meal still grows things. "performance blocks" in the console lists what's frozen.
+  # Default: [] (every block updates, as the game does)
+  frozen: []
+  # Blocks that always update even when frozen takes them in - most use with "frozen: [all]". Doors (both halves
+  # break together), signs and torches (they drop when what holds them goes) only stop if frozen names them.
+  # Default: []
+  keep: []

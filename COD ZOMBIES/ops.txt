@@ -1,0 +1,4 @@
+# Operators: the host's powers - all of Host Options (and its Server Settings) and every command.
+# A player name a line, as it shows in the game. /op and /deop in the game change this file, and the
+# server reads it again a moment after you save it - no restart needed. (Every world on this server.)
+wwasd
